@@ -7,16 +7,29 @@
     tools:context=".CreateNote">
 <!--    android:background="@drawable/backg"-->
 
+
     <ImageView
         android:id="@+id/imgView"
         android:layout_width="394dp"
         android:layout_height="223dp"
         android:background="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.058"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/img_create_note" />
+
+    <ImageButton
+        android:id="@+id/btn_favorite"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_done"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_exit"
+        app:layout_constraintTop_toTopOf="@+id/imgView"
+        app:srcCompat="@drawable/icon_favorite" />
 
     <ImageButton
         android:id="@+id/btn_exit"
@@ -29,7 +42,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+        app:srcCompat="@drawable/icon_comeback" />
 
     <ImageButton
         android:id="@+id/btn_done"
@@ -41,8 +54,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/imgView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/baseline_done_24" />
+        app:layout_constraintVertical_bias="0.048"
+        app:srcCompat="@drawable/icon_done" />
 
     <EditText
         android:id="@+id/edtTitle"

@@ -48,12 +48,12 @@ tools:context=".Slash">
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/baseline_add_24" />
+        app:srcCompat="@drawable/icon_add_note" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rview"
-        android:layout_width="393dp"
-        android:layout_height="575dp"
+        android:layout_width="389dp"
+        android:layout_height="571dp"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

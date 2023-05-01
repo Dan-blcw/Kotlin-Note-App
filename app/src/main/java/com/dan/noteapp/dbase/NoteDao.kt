@@ -10,8 +10,8 @@ interface NoteDao {
     suspend fun insert(note: Note)
     @Delete
     suspend fun delete(note: Note)
-    @Query("SELECT * FROM Note_tb ORDER BY id ASC")
+    @Query("SELECT * FROM Note_tb ORDER BY date DESC")
     fun getAllNotes(): LiveData<List<Note>>
-    @Query("UPDATE Note_tb SET title = :title, note = :note WHERE id = :id")
-    suspend fun update(id: Int?, title: String?,note: String?)
+    @Query("UPDATE Note_tb SET title = :title, note = :note , date = :date WHERE id = :id")
+    suspend fun update(id: Int?, title: String?,note: String?,date: String?)
 }

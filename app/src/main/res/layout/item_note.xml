@@ -2,7 +2,7 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="202dp"
     android:id="@+id/cart_layout"
-    android:layout_margin="4dp"
+    android:layout_margin="6dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/white"
     app:cardCornerRadius="15dp"
@@ -35,17 +35,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:paddingLeft="2dp">
+                android:paddingLeft="5dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="74dp"
+                    android:layout_height="69dp"
                     android:orientation="horizontal"
                     android:paddingTop="6dp">
 
                     <TextView
                         android:id="@+id/txtTitle"
-                        android:layout_width="87dp"
+                        android:layout_width="83dp"
                         android:layout_height="match_parent"
                         android:maxEms="10"
                         android:text="Title"
@@ -57,7 +57,7 @@
                         android:layout_width="22dp"
                         android:layout_height="26dp"
                         android:background="@android:color/transparent"
-                        app:srcCompat="@drawable/baseline_delete_24" />
+                        app:srcCompat="@drawable/icon_delete" />
                 </LinearLayout>
 
                 <TextView

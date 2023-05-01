@@ -80,7 +80,7 @@ class NotesAdapter(private val context: Context,val ltn: NotesOnClickListener):
         fullList.addAll(newList)
 
         noteList.clear()
-        noteList.addAll(newList)
+        noteList.addAll(fullList)
         notifyDataSetChanged()
     }
     fun searchFilter(content: String){
@@ -90,6 +90,7 @@ class NotesAdapter(private val context: Context,val ltn: NotesOnClickListener):
                 nowIT.note?.lowercase()?.contains(content.lowercase()) == true)
                 noteList.add(nowIT)
         }
+        notifyDataSetChanged()
     }
     fun random(): Int{
         val list = ArrayList<Int>()
@@ -100,8 +101,22 @@ class NotesAdapter(private val context: Context,val ltn: NotesOnClickListener):
         list.add(R.color.do_5)
         list.add(R.color.do_6)
         list.add(R.color.do_7)
-
-
+        list.add(R.color.do_8)
+        list.add(R.color.do_9)
+        list.add(R.color.do_10)
+        list.add(R.color.do_11)
+        list.add(R.color.do_12)
+        list.add(R.color.do_13)
+        list.add(R.color.do_14)
+        list.add(R.color.do_15)
+        list.add(R.color.do_16)
+        list.add(R.color.do_17)
+        list.add(R.color.do_18)
+        list.add(R.color.do_19)
+        list.add(R.color.do_20)
+        list.add(R.color.do_21)
+        list.add(R.color.do_22)
+        list.add(R.color.do_23)
         val seed = System.currentTimeMillis().toInt()
         val randomIndex = Random(seed).nextInt(list.size)
         return list[randomIndex]
