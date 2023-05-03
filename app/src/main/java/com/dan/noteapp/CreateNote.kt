@@ -52,5 +52,8 @@ class CreateNote : AppCompatActivity() {
         binding.btnExit.setOnClickListener {
             onBackPressed()
         }
+        binding.btnFavorite.setOnClickListener {
+            Toast.makeText(this@CreateNote,"Added to success list",Toast.LENGTH_LONG).show()
+        }
     }
 }

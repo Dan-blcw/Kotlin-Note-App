@@ -73,8 +73,8 @@
 
     <EditText
         android:id="@+id/edtNote"
-        android:layout_width="match_parent"
-        android:layout_height="511dp"
+        android:layout_width="370dp"
+        android:layout_height="494dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"

@@ -59,11 +59,11 @@ class const {
             listImg.add("https://i.pinimg.com/736x/6c/f7/57/6cf757e1aadd16a5194c6d3a5a9f0a03.jpg")
             listImg.add("https://i.pinimg.com/564x/bc/23/e6/bc23e6a69f2c537b7b6733270b9a6fc9.jpg")
             listImg.add("https://i.pinimg.com/564x/2d/14/02/2d1402832b8816125b0abd205fdd3399.jpg")
-            listImg.add("https://i.pinimg.com/564x/28/3e/a0/283ea0d35b2767c207099abadf1d2698.jpg")
             listImg.add("https://i.pinimg.com/736x/44/7d/40/447d4085238790f4539398d35be679cb.jpg")
-            listImg.add("")
+//            listImg.add("")
             val randomSeed = 1549786796.toLong()
             listImg.shuffle(Random(randomSeed))
         }
+
     }
 }

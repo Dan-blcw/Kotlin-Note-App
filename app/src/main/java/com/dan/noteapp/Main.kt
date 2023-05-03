@@ -59,7 +59,9 @@ class Main : AppCompatActivity() ,NotesAdapter.NotesOnClickListener{
         list.add("Important")
         list.add("To-Do")
         list.add("Nothing")
-        list.add("Yohohoho")
+        list.add("Yeahhhhhhh")
+        list.add("Demo")
+        list.add("NoF")
         val rvAdapter = ContentAdapter(list,object: util{
             override fun OnClickTitle(pos: Int) {
                 Toast.makeText(
@@ -89,7 +91,10 @@ class Main : AppCompatActivity() ,NotesAdapter.NotesOnClickListener{
                 viewModel.insert(note)
             }
         }
-
+        binding.btnListImg.setOnClickListener {
+            val inte = Intent(this@Main,ListImage::class.java)
+            startActivity(inte)
+        }
         binding.btnCreateNote.setOnClickListener{
             val intent = Intent(this, CreateNote::class.java)
             getContext.launch(intent)

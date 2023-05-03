@@ -21,6 +21,7 @@ tools:context=".Slash">
         android:id="@+id/rvContent"
         android:layout_width="399dp"
         android:layout_height="36dp"
+
         android:layout_marginLeft="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +37,9 @@ tools:context=".Slash">
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" >
+
+    </androidx.appcompat.widget.SearchView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btn_create_note"
@@ -48,13 +51,26 @@ tools:context=".Slash">
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/icon_add_note" />
+        app:srcCompat="@drawable/icon_add_note"
+        app:tint="#FFFFFF" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_listImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:clickable="true"
+        app:tint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_create_note"
+        app:layout_constraintEnd_toStartOf="@+id/btn_create_note"
+        app:srcCompat="@drawable/icon_playlist" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rview"
         android:layout_width="389dp"
         android:layout_height="571dp"
         android:layout_marginTop="8dp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
