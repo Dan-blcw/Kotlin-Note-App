@@ -24,10 +24,10 @@ class ListImage : AppCompatActivity() {
             onBackPressed()
         }
 
-        const.create()
-        binding.RvStaggeredGrid.layoutManager = StaggeredGridLayoutManager(2,
-            StaggeredGridLayoutManager.VERTICAL)
-        val itemAdapter = ImageAdapter(const.listImg)
-        binding.RvStaggeredGrid.adapter = itemAdapter
+//        const.create()
+//        binding.RvStaggeredGrid.layoutManager = StaggeredGridLayoutManager(2,
+//            StaggeredGridLayoutManager.VERTICAL)
+//        val itemAdapter = ImageAdapter(const.listImg)
+//        binding.RvStaggeredGrid.adapter = itemAdapter
     }
 }

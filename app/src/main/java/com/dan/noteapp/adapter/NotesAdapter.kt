@@ -47,6 +47,7 @@ class NotesAdapter(private val context: Context,val ltn: NotesOnClickListener):
             val btn_delete = findViewById<ImageButton>(R.id.btn_delete)
             val index= random()
             const.create()
+//            const.suf()
             title.text = noteList[position].title
             title.isSelected = true
             note.text = noteList[position].note

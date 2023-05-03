@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/imgView"
-        android:layout_width="394dp"
-        android:layout_height="223dp"
+        android:layout_width="413dp"
+        android:layout_height="219dp"
         android:background="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.058"
@@ -73,8 +73,8 @@
 
     <EditText
         android:id="@+id/edtNote"
-        android:layout_width="370dp"
-        android:layout_height="494dp"
+        android:layout_width="379dp"
+        android:layout_height="497dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
@@ -85,6 +85,16 @@
         app:layout_constraintEnd_toEndOf="@+id/edtTitle"
         app:layout_constraintStart_toStartOf="@+id/edtTitle"
         app:layout_constraintTop_toBottomOf="@+id/edtTitle" />
+
+    <TextView
+        android:id="@+id/txtRandomNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Make your day"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/edtNote"
+        app:layout_constraintStart_toStartOf="@+id/edtNote"
+        app:layout_constraintTop_toBottomOf="@+id/edtNote" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

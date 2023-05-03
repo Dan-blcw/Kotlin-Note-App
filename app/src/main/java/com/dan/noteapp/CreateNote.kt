@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.dan.noteapp.databinding.ActivityCreateNoteBinding
+import com.dan.noteapp.models.const
 import com.dan.noteapp.models.dto.Note
 import java.text.SimpleDateFormat
 import java.util.*
@@ -55,5 +56,6 @@ class CreateNote : AppCompatActivity() {
         binding.btnFavorite.setOnClickListener {
             Toast.makeText(this@CreateNote,"Added to success list",Toast.LENGTH_LONG).show()
         }
+        binding.txtRandomNote.setText(const.createNote())
     }
 }

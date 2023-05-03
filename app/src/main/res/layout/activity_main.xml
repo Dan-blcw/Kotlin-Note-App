@@ -9,13 +9,14 @@ tools:context=".Slash">
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="393dp"
-        android:layout_height="106dp"
+        android:layout_width="412dp"
+        android:layout_height="110dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/img_nothing0" />
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvContent"
@@ -67,10 +68,10 @@ tools:context=".Slash">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rview"
-        android:layout_width="389dp"
-        android:layout_height="571dp"
+        android:layout_width="405dp"
+        android:layout_height="629dp"
+        android:layout_marginLeft="4dp"
         android:layout_marginTop="8dp"
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
