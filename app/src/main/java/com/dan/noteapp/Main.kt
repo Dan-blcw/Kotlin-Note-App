@@ -58,10 +58,10 @@ class Main : AppCompatActivity() ,NotesAdapter.NotesOnClickListener{
         list.add("All Notes")
         list.add("Important")
         list.add("To-Do")
-        list.add("Nothing")
-        list.add("Yeahhhhhhh")
-        list.add("Demo")
-        list.add("NoF")
+        list.add("None")
+        list.add("None")
+        list.add("None")
+        list.add("None")
         val rvAdapter = ContentAdapter(list,object: util{
             override fun OnClickTitle(pos: Int) {
                 Toast.makeText(
