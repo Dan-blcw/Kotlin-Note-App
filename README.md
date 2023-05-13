@@ -1,7 +1,10 @@
-# Kotlin-NoteApp
+# Kotlin Note App
 ## Preamble
 ![image](https://user-images.githubusercontent.com/127305381/236701412-07aff912-3cbc-4250-a176-29bb2f228c65.png)
-
+## Prerequisites
+- Kotlin
+- Gradle 
+- Android studio
 ## Demo
 #### Slash Home
 ![image](https://github.com/Dan-blcw/Kotlin-NoteApp/assets/127305381/739a1331-611b-45e2-b806-dca2999eb029)
@@ -14,5 +17,7 @@
 ![image](https://github.com/Dan-blcw/Kotlin-NoteApp/assets/127305381/5f1df95d-4054-4fb7-bf2f-788af7f898e8)
 ![image](https://github.com/Dan-blcw/Kotlin-NoteApp/assets/127305381/d377fa66-1540-4531-ab9e-8157e9c921e8)
 #### ListImage
-![image](https://github.com/Dan-blcw/Kotlin-NoteApp/assets/127305381/fefbfffb-3517-4233-85b6-949b32d3c091)
+![image](https://github.com/Dan-blcw/Kotlin-NoteApp/assets/127305381/ff8d33ae-4c48-47a8-afeb-692390f44af3)
+
+#### I'm Dan, Welcome to my Repositories
 
