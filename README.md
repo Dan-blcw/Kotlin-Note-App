@@ -1,10 +1,10 @@
 # Kotlin Note App
-## Preamble
-![image](https://user-images.githubusercontent.com/127305381/236701412-07aff912-3cbc-4250-a176-29bb2f228c65.png)
 ## Prerequisites
 - Kotlin
 - Gradle 
 - Android studio
+## Preamble
+![image](https://user-images.githubusercontent.com/127305381/236701412-07aff912-3cbc-4250-a176-29bb2f228c65.png)
 ## Demo
 #### Slash Home
 ![image](https://github.com/Dan-blcw/Kotlin-NoteApp/assets/127305381/4cdb7e9d-baab-44ba-ad68-a66083cf3746)
