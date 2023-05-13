@@ -7,7 +7,7 @@
 - Android studio
 ## Demo
 #### Slash Home
-![image](https://github.com/Dan-blcw/Kotlin-NoteApp/assets/127305381/739a1331-611b-45e2-b806-dca2999eb029)
+![image](https://github.com/Dan-blcw/Kotlin-NoteApp/assets/127305381/4cdb7e9d-baab-44ba-ad68-a66083cf3746)
 #### MainActivity
 ![image](https://github.com/Dan-blcw/Kotlin-NoteApp/assets/127305381/a59afd4f-a760-4808-89db-cafa181afcdd)
 ![image](https://github.com/Dan-blcw/Kotlin-NoteApp/assets/127305381/78dba51d-0889-409b-bb13-e4358ee7f4b5)
