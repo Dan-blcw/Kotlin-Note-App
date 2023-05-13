@@ -4,4 +4,5 @@
 
 ## Demo
 ![image](https://github.com/Dan-blcw/Kotlin-NoteApp/assets/127305381/a59afd4f-a760-4808-89db-cafa181afcdd)
+![image](https://github.com/Dan-blcw/Kotlin-NoteApp/assets/127305381/78dba51d-0889-409b-bb13-e4358ee7f4b5)
 
